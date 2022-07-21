@@ -1,0 +1,11 @@
+<div *ngFor="let expense of expenses">
+    <h2>
+        {{expense.expenses}}
+    </h2>
+    <h4>
+        {{expense.amount  | currency: 'INR'}}
+    </h4>
+    <p>
+        {{expense.description}}
+    </p>
+</div>
