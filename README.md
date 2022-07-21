@@ -1,3 +1,26 @@
+# 💸 ExpenseTracker_FrontEnd
+
+"If you can't measure it, you can't improve it." - Peter Drucker
+
+A simple expense tracking application, an app to track your daily spendings 💰. 
+
+I have uploaded this in two parts/repository:
+
+1) BackEnd application: SpringBoot
+2) FrontEnd application: Angular
+---
+Mapping URLs
+
+1) In BackEnd SpringBoot App
+PostMapping: http://localhost:8080/api/v1/add-expense and
+GetMapping: http://localhost:8080/api/v1/find-all-record
+
+2) In FronEnd Angular App
+  2.1 Use (Default URL): http://localhost:4200/
+---
+Let's connect at:
+https://in.linkedin.com/in/divyamrai 🚀
+
 # AngularFrontEnd
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
@@ -5,24 +28,3 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# ExpenseTracker_FrontEnd
