@@ -11,10 +11,15 @@ export class ExpenseTrackerService {
 
   constructor(private _httpClient: HttpClient) { }
 
-  private getUrl: string = "http://localhost:8080/api/v1/find-all-record";
+  private getUrlforGet: string = "http://localhost:8080/api/v1/find-all-record";
   getExpenses(): Observable<ExpenseTracker[]>{
-    return this._httpClient.get<ExpenseTracker[]>(this.getUrl).pipe(
+    return this._httpClient.get<ExpenseTracker[]>(this.getUrlforGet).pipe(
       map(response => response)
     )
+  }
+
+  private getUrlforAdd: string = "http://localhost:8080/api/v1/add-expense";
+  saveExpenses(expense: ExpenseTracker): Observable<ExpenseTracker>{
+    return this._httpClient.post<ExpenseTracker>(this.getUrlforAdd, expense);
   }
 }
